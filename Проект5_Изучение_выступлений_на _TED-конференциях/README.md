@@ -1,9 +1,9 @@
 # Проект5_Изучение_выступлений_на_TED_конференциях
 
 ## Данные
-собраны с сайта http://ted.com/:
+Входные данных были собраны с сайта http://ted.com/:
 
-Файлы tableau_project_data_1.csv, tableau_project_data_2.csv, tableau_project_data_3.csv хранят данные выступлений. 
+Файлы `tableau_project_data_1.csv`, `tableau_project_data_2.csv`, `tableau_project_data_3.csv` хранят данные выступлений. 
 Их структура:
 - talk_id — идентификатор выступления;
 - url — ссылка на запись выступления;
@@ -19,12 +19,12 @@
 - language — язык, на котором велось выступление;
 - event_id — уникальный идентификатор конференции.
 
-Файл tableau_project_event_dict.csv — справочник конференций. Описание таблицы:
+Файл `tableau_project_event_dict.csv` — справочник конференций. Описание таблицы:
 - conf_id — уникальный идентификатор конференции;
 - event — название конференции;
 - country — страна проведения конференции.
 
-Файл tableau_project_speakers_dict.csv — справочник авторов выступления. Описание таблицы:
+Файл `tableau_project_speakers_dict.csv` — справочник авторов выступления. Описание таблицы:
 - author_id — уникальный идентификатор автора выступления;
 - speaker_name — имя автора;
 - speaker_occupation — профессиональная область автора;
